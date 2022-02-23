@@ -16,4 +16,8 @@ to delete container (must be stopped): docker rm <id>
 ==> tag: docker tag getting-started <user>/getting-started
 ==> push: docker push <user>/getting-started
 6) We can test image with 'Play with Docker'
+7) Persisting data:
+volume creation: docker volume create <volname>
+puis start app with mount volume (volname=todo-db):
+docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
 

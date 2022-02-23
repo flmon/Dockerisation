@@ -34,6 +34,10 @@ see cmd_docker.txt for commands to run
 
 9) Using Docker Compose
 a) create file docker-compose.yml (at app root)
+b) define services in the YAML file
+c) run docker-compose
+docker-compose up -d
+
 
 
 
